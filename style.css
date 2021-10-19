@@ -1,0 +1,159 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: bold;
+    font-size: 1.1rem;
+    }
+  
+  #intro-gamer {
+    font-family:  'Montserrat Alternates', sans-serif;
+    font-size: 2rem;
+  }
+  
+  .middle-container {
+    padding: 10px;
+    color:#40514E;
+  }
+  
+  .Andre {
+    width:40%;
+  }
+  
+  .cocina {
+    width:30%;
+    float: left;
+    margin-right:45px;
+    margin-top: 5px;
+  }
+  
+  .juegos {
+    width:30%;
+    float: right;
+    margin-left: 45px;
+    margin-top: 5px;
+  
+  }
+  
+  /* 100% = 16px = 1 em
+  em y % son dinámicas - si pongo un font size en el body, se suman.
+  Pixels no afecta, si seteo un valor en el parent
+  Si quiero usar em, lo mejor es usar REM */
+  h1 {
+    margin-top: 0;
+    font-family: 'Gochi Hand', cursive;
+    margin: 40px auto 0 auto;
+    font-size:5.625rem;
+    color:#66BFBF;
+  }
+  
+  h2 {
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 2.5rem;
+    margin: 25px auto 25px auto;
+    color:#66BFBF;
+    font-weight: bold;
+  }
+  
+  h3 {
+    font-family: 'Merriweather Sans', sans-serif;
+    color:#11999E;
+  }
+  
+  .titulo {
+    text-decoration: underline;
+  }
+  
+  .top-container {
+    background-color: #E4F9F5;
+    position: relative;
+    padding-top: 80px;
+    line-height: 1;
+  
+  }
+  
+  .bottom-container {
+    background-color: #66BFBF;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    color: #EAF6F6;
+  }
+  
+  .footer-link {
+    color:white;
+    line-height: 4;
+    margin: 0 30px;
+    padding: 0 5px;
+  }
+  
+  .footer-link:hover {
+    color:#11999E;
+    background-color:#E4F9F5;
+  }
+  
+  .top-cloud{
+    position:absolute;
+    right:300px;
+    top:50px;
+  }
+  
+  .bottom-cloud {
+  position:absolute;
+  left: 350px;
+  bottom: 350px;
+  
+  }
+  
+  .mountain {
+    margin-top: 65px;
+  }
+  
+  .skill-row {
+    width:48%;
+    margin: 50px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+  }
+  
+  .profile {
+    width:30%;
+    margin: 20px auto 50px auto;
+    line-height: 2;
+    text-align: center;
+  }
+  
+  
+  .linea {
+    border-style: dotted none none none;
+    border-width: 5px;
+    border-color: #929aab;
+    width:5%;
+    margin: 70px auto 60px auto;
+    }
+  
+  .contact-me {
+      width:30%;
+      margin: 50px auto 60px auto;
+      line-height: 2;
+      text-align: center;
+    }
+  
+  .myButton {
+        background-color:#66bfbf;
+        border-radius:35px;
+        display:inline-block;
+        cursor:pointer;
+        color:#ffffff;
+        font-family: 'Montserrat Alternates', sans-serif;
+        font-size:17px;
+        padding:2px 28px;
+      margin-top: 25px;
+        text-decoration:none;
+    }
+  .myButton:hover {
+        background-color:#228487;
+    }
+  .myButton:active {
+        position:relative;
+        top:1px;
+    }
