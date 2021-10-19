@@ -21,14 +21,14 @@ body {
   }
   
   .cocina {
-    width:15%;
+    width:25%;
     float: left;
     margin-right:45px;
     margin-top: 5px;
   }
   
   .juegos {
-    width:15%;
+    width:25%;
     float: right;
     margin-left: 45px;
     margin-top: 5px;
